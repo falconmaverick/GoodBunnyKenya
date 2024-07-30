@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: gold;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
